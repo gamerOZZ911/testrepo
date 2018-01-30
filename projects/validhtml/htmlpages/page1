@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<Header>
+<Main></main>
+<header>
+  <a href="http://raybo.org"><img src="http://raybo.org/assets/images/powship.svg" width="100" alt="Site Logo"></a>
+  <h1>Raybo.org</h1>
+  <p>Learn practical web skills</p>
+</header>
  <Footer>
   <Nav>
    <Article>
     <Section>
-     <Main>
       <Aside>
        <Div>
         <a>
          <img>
-         </Header>
           </Footer>
           </Nav>
           </Article>
            </Section>
-           </Main>
            </Aside>
            </Div>
            </a>
