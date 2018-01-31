@@ -4,42 +4,37 @@
  <head>
    <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-   <title>Television Sets</title>
+   <title>Television Store</title>
  </head>
+ <img src="https://www.costco.com/wcsstore/CostcoUSBCCatalogAssetStore/category-tiles/tv-tile-lg-320x220.jpg" style="width:350px;height:300px;" alt"a television">
  
-<nav class="">
+<nav class="Killme">
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="#">This is not a link</li>
+    <li><a href="https://gamerozz911.github.io/testrepo/projects/validhtml/">About</a></li>
+    <li><a href="https://gamerozz911.github.io/testrepo">Contact</a></li>
   </ul>
-</nav>
-
- <main>
-      <article> 
+</nav> 
+       <article> 
            <section>
- <h1></h1>
+ <h1>Different Kinds of Televisions</h1>
+ <li>Direct View - Tube.</li>
+<li>Digital Light Processing (DLP)</li>
+<li>Liquid Crystal Display (LCD)</li>
+<li>Plasma Display Panels (PDP)</li>
+        </article>
+            </section>
+<main>
  
+ <h1>What kinds of televisions do you have?</h1>
+ <p>Answer: All kinds of televisions!</p>
  
- <h2>Skills</h2>
- 
- 
- <h3>Software/Hardware</h3>
- <p>HTML, CSS, Unreal Engine, Premiere Pro, Photoshop</p>
- 
- <h4>Social Media/Web</h4>
- <p><ul>
-    <li><a href="http://t.co/4bdwCC7Clr">Instagram</a></li>
-    <li><a href="https://github.com/gamerOZZ911/testrepo">Github Repo</a></li>
-    <li><a href="https://github.com/gamerOZZ911">Github Profile</a></li>
-  </ul></p>
+ <div>
+ <p>TELEVISIONS!</p>
+
  
  <h5>Work Samples</h5>
- <p><img src="images/sauce.jpg" height="200">
-<img src="images/poster.jpg" height="200">
-<img src="images/movie.jpg" height="200">
-<img src="images/color.jpg" height="200">
-<img src="images/checkerboard.jpg" height="200"></p>
+ <p><img src="images/poster.jpg" height="200"></p>
  
  </main>
  </html>
