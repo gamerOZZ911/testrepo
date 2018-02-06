@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <style>CSS</style>
 <head>
-<style>
-  p { color: blue; font-style: italic; }
-</style>
+<link href="styles/style.css" rel="stylesheet" type="text/css">
 </head>
+<style>
+ @import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+</style>
 <div>
 <p style="color: red; font-size: 200%">Televisions!</p>
 </div>
 @import url('https://fonts.googleapis.com/css?family=Rammetto+One');
 
-h1 {
-  font-family: "Rammetto One", sans-serif;
-}
 <h1>Types of Televisions</h1>
 
 <h2>Plasma Display Panel</h2>
