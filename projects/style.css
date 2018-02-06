@@ -1,8 +1,10 @@
 p {
   color: red;
+  width: 500px;
+  border: 1px solid black;
 }
 @import url('https://fonts.googleapis.com/css?family=Rammetto+One');
 
-h1 {
+h2 {
   font-family: "Rammetto One", sans-serif;
 }
