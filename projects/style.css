@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 p {
   color: red;
   width: 500px;
@@ -6,7 +8,6 @@ p {
   line-height: 2;
   letter-spacing: 1px;
 }
-@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
 
 h2 {
   color: black
@@ -19,6 +20,7 @@ h1 {
   color: blue;
   width: 600px;
   border: 1px solid black;
+  font-family: "Open Sans", sans-serif;
   font-size: 60px;
   text-align: center;
   margin: 0;
