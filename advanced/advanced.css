@@ -23,7 +23,7 @@ p {
 
 .container-box {
   margin: 0 auto;
-  width: 600px;
+  width: 400px;
   background: black;
   display: flex;
   flex-wrap: nowrap;
