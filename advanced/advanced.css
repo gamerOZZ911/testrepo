@@ -98,7 +98,7 @@ img {
 
 .container-box {
   margin: 0 auto;
-  width: 400px;
+  width: 500px;
   background: black;
   display: flex;
   flex-wrap: nowrap;
