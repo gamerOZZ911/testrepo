@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab #2 section 1</title>
+    <meta name="description" content="Javascript program that uses the three primitive data types and prints output for each type. In the same script, print the following: She cried, 'Aren't you going to help me?'">
+	<meta charset="utf-8">
+
+	<script>
+
+		var number = prompt("Enter a number");
+		while(isNaN(number)){
+			number = prompt("Please enter a number");
+		}
+		number = Number(number);
+
+		var string = prompt("Enter a string");
+
+		var bool = prompt("Enter 'false' or 'true'");
+		var regexFalse = /^[fF][aA][lL][sS][eE]$/;
+		var regexTrue = /^[tT][rR][uU][eE]$/;
+		while(!(bool.match(regexFalse)) && !(bool.match(regexTrue))){
+			bool = prompt("Please enter either 'false' or 'true'");
+		}
+
+		if (bool.match(regexFalse)){
+			bool = false;
+		}
+		else {
+			bool = true;
+		}
+
+		document.write("<h1 style='font-size:1.2em'>Numbers</h1>");
+		document.write("<p>" + number + " is of type <span style='font-weight:bold'>" + typeof(number) + "</span></p>");
+
+		document.write("<h1 style='font-size:1.2em'>Strings</h1>");
+		document.write("<p>'" + string + "' is of type <span style='font-weight:bold'>" + typeof(string) + "</span></p>");
+
+		document.write("<h1 style='font-size:1.2em'>Booleans</h1>");
+		document.write("<p>" + bool + " is of type <span style='font-weight:bold'>" + typeof(bool) + "</span></p>");
+
+		document.write("<h1 style='font-size:1.2em'>Random string</h1>");
+		document.write('<p>She cried, "Aren\'t you going to help me?"</p>');
+	</script>
+</head>
+
+<body>
+	<script type="text/javascript">
+    document.write(Number.isInteger(234));
+
+</script>
+
+<script>
+</script>
+
+<script>
+   document.write("")
+</script>
+</html>
