@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+var a=false;
+var x =2;
+var y="2";
+
+if(x===y) {x =true;}
+
+alert("x = "+ x);
+
+</script>
+</body>
+</html>
